@@ -93,6 +93,10 @@
       @apply flex-[1_0_100%] bg-inherit p-0;
     }
 
+    .prose .katex-display {
+      @apply text-foreground;
+    }
+
     blockquote {
       @apply border-s-accent/80 wrap-break-word opacity-80;
     }
