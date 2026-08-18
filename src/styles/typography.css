@@ -112,6 +112,16 @@
     pre {
       @apply focus-visible:outline-accent focus-visible:border-transparent focus-visible:outline-2 focus-visible:outline-dashed;
     }
+
+    /* ===== KaTeX ===== */
+    .katex {
+      @apply text-foreground;
+    }
+
+    .katex-display {
+      @apply text-foreground;
+      text-align: center;
+    }
   }
 
   /* ===== Code Blocks & Syntax Highlighting ===== */
