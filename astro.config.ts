@@ -62,23 +62,26 @@ export default defineConfig({
     plugins: [tailwindcss()],
   },
   fonts: [
-    {
-      name: "Noto Sans SC",
-      cssVariable: "--font-noto-sans-sc",
-      provider: fontProviders.google(),
-      fallbacks: ["sans-serif"],
-      weights: [400, 500, 600, 700],
-      styles: ["normal"],
-    },
-    {
-      name: "Google Sans Code",
-      cssVariable: "--font-google-sans-code",
-      provider: fontProviders.google(),
-      fallbacks: ["monospace"],
-      weights: [400, 500, 600, 700],
-      styles: ["normal"],
-    },
-  ],
+  {
+    name: "Google Sans Code",
+    cssVariable: "--font-google-sans-code",
+    provider: fontProviders.google(),
+    fallbacks: [],
+    weights: [400, 500, 600, 700],
+    styles: ["normal"],
+    subsets: ["latin"],
+  },
+
+  {
+    name: "Noto Sans SC",
+    cssVariable: "--font-noto-sans-sc",
+    provider: fontProviders.google(),
+    fallbacks: ["sans-serif"],
+    weights: [400, 700],
+    styles: ["normal"],
+    subsets: ["chinese-simplified"],
+  },
+],
   env: {
     schema: {
       PUBLIC_GOOGLE_SITE_VERIFICATION: envField.string({
