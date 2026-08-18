@@ -14,11 +14,11 @@ KL散度衡量两个概率分布之间的“距离”，因此，用KL散度刻�
 
 设$X_1, X_2, ..., X_n$ 是分布$P^*$ 给出的一组观测数据。考虑分布$P$与$P^*$的KL散度：
 $$
-\begin{align}
+\begin{aligned}
 KL(P^*||P)&=\sum_xP^*(x)\log\frac{P^*(x)}{P(x)} \\
 &=\sum_xP^*(x)\log P^*(x)-\sum_xP^*(x)\log P(x) \\
 &=\mathbb{E}_{P^*}[\log P^*(x)]-\mathbb{E}_{P^*}[\log P(x)]
-\end{align}
+\end{aligned}
 $$
 我们想要找一个$P$, 使得上式最小。注意上式第一项由真实分布$P^*$决定，与优化目标无关。因此最小化KL散度等价于最大化
 
