@@ -1,3 +1,9 @@
+---
+title: KL散度如何导出极大似然估计
+description: An interesting equivalence
+pubDatetime: 8/18
+---
+
 MLE（Maximum Likelihood Estimation）是我们建模概率分布的常用方法。它的基本思想很简单：
 
 > [!Important]
@@ -17,4 +23,5 @@ $$
 我们想要找一个$P$, 使得上式最小。注意上式第一项由真实分布$P^*$决定，与优化目标无关。因此最小化KL散度等价于最大化$$\mathbb{E}_{P^*}[\log P(x)]$$
 注意$X_1,...,X_n$由真实分布$P^*$给出，根据大数定律，上面的期望可以由$$\frac{1}{n}\sum_{i=1}^n\log P(X_i)=\frac{1}{n}\log\prod_{i=1}^nP(X_i)$$
 其中$$\log\prod_{i=1}^n P(X_i)$$ 正是观测数据在概率模型$P$下的对数似然。
+
 
