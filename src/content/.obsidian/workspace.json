@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "posts/examples/example-draft-post.md",
+                "file": "pages/about.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "example-draft-post"
+              "title": "about"
             }
           }
         ]
@@ -83,7 +83,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "aff182409891b728",
@@ -99,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "posts/examples/example-draft-post.md",
+                "file": "pages/about.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "posts/examples/example-draft-post.md",
+                "file": "pages/about.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -161,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "posts/examples/example-draft-post.md",
+                "file": "pages/about.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -190,8 +191,13 @@
   },
   "active": "5f495401fd571962",
   "lastOpenFiles": [
-    "pages/about.md",
+    "posts/_color-schemes/assets/pyit-tine-htaung.png",
+    "posts/_color-schemes/assets/nila.png",
+    "posts/_color-schemes/assets/jadeite.png",
+    "posts/_color-schemes/assets/espresso.png",
+    "posts/_color-schemes/assets/ember.png",
     "posts/examples/example-draft-post.md",
+    "pages/about.md",
     "posts/examples/portfolio-website-development.md",
     "posts/examples/tailwind-typography.md",
     "posts/examples/terminal-development.md",
