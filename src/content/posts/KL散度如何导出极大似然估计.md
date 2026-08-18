@@ -1,7 +1,7 @@
 ---
 title: KL散度如何导出极大似然估计
 description: An interesting equivalence
-pubDatetime: 8/18
+pubDatetime: 2026-08-18T15:52:21+08:00
 ---
 
 MLE（Maximum Likelihood Estimation）是我们建模概率分布的常用方法。它的基本思想很简单：
