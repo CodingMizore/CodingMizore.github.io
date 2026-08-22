@@ -1,5 +1,5 @@
 ---
-title: Multi-Level Page Table
+title: "Operating System: Paging"
 description: ""
 pubDatetime: 2026-08-22T19:37:52+08:00
 tags:
