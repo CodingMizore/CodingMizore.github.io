@@ -13,13 +13,14 @@ tags:
 
 最简单的随机变量是**白噪声**。 要求$\mathbb{E}[X_t]=0$, 且任意的$X_i, X_j, i\ne j$都彼此独立。
 
-时间序列中的一个重要性质是**stationarity**. 我们这里讨论**weak stationarity**，并将其称为stationarity. （大约中文译为稳定性，我没有确认过） 
+时间序列中的一个重要性质是**stationarity**（平稳性）. 我们这里讨论**weak stationarity**，并将其称为stationarity.  
 对时间序列$\{X_t\}_{t=0}^\infty$，若有
 * $\mu(t)=\mu,\forall t$
 * 若$j-i=s-t$, 则$\gamma(i,j)=\gamma(s,t)$
 则称时间序列是stationary的. 直觉上来说，就是：
 * 整个时间序列都在同一水平线上波动；
-* 时刻间的linear corelation仅仅与时刻时间的距离有关。
+* 时刻间的**线性依赖**仅仅与时刻时间的距离有关；
+* 对于realization中的一串连续的取值，你无法区分它来自序列中的哪一段**绝对时间**。
 
 对于stationary time series, 由于autocovarience function的取值仅仅与两个时刻的距离有关，因此可以简单地记为
 $$
